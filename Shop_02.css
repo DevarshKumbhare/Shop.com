@@ -2,24 +2,6 @@
     margin: 0;
     padding: 0;
 }
-#block1 {
-    margin-top: 50px;
-    margin-bottom: 15px;
-    color: rgba(1,1,1,0.7);
-}
-
-#block1 h2 {
-    font-weight: bold;
-    font-size: 1.5em;
-    transition: all 500ms;
-    padding-left: 20px;
-}
-    
-#block1 h2:hover {
-    font-size:40px;
-    font-size-adjust: 10px;
-    padding-left: 0;
-}
 .container{
     height: 100vh;
     width: 100%;
@@ -67,8 +49,20 @@ h1{
     color: #14213D;
     background-image: url(img/electronics4.png);
 }
+.electronics h2 {
+    font-weight: bold;
+    font-size: 1.5em;
+    transition: all 500ms;
+    padding-left: 3ch;
+}
 .electronics :hover{
     color: #f4b247;
+    padding-left: 0ch;
+}
+.electronics h2:hover {
+    font-size:40px;
+    font-size-adjust: 10px;
+    padding-left: 0ch;
 }
 .home{
     margin-left: 5%;
@@ -76,20 +70,18 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     color: #14213D;
     background-image: url(img/home5.png);
-    padding-left: 6ch;
-    padding-right: 0;;
-
+    padding-right: 0;
 }
 .home h2 {
     font-weight: bold;
     font-size: 1.5em;
     transition: all 500ms;
-    padding-left: 80ch;
+    padding-left: 3.5ch;
 }
-#block1 h2:hover {
+.home h2:hover {
     font-size:40px;
     font-size-adjust: 10px;
-    padding-left: 0;
+    padding-left: 1ch;
 }
 .home :hover{
     color: #f4b247;
@@ -101,6 +93,17 @@ h1{
     color: #14213D;
     background-image: url(img/furniture2.png);
 }
+.furniture h2 {
+    font-weight: bold;
+    font-size: 1.5em;
+    transition: all 500ms;
+    padding-left: 4ch;
+}
+.furniture h2:hover {
+    font-size:40px;
+    font-size-adjust: 10px;
+    padding-left: 0.75ch;
+}
 .furniture :hover{
     color: #f4b247;
 }
@@ -108,9 +111,9 @@ h1{
     display: inline-block;
     height: 30%;
     width: 20%;
-    padding-left: 9ch;
+    padding-left: 5ch;
     padding-right: 4ch;
-    padding-top: 24.5vh;
+    padding-top: 23.5vh;
     margin-top: 0.5ch;
     margin-bottom:1vh ;
     box-sizing: border-box;
@@ -128,9 +131,18 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     color: #14213D;
 }
-.grocery :hover{
+.grocery h2 {
+    font-weight: bold;
+    font-size: 1.5em;
+    transition: all 500ms;
+    padding-left: 2.5ch;
+    margin-left: 0;
+}
+.grocery h2:hover {
+    font-size:40px;
+    font-size-adjust: 10px;
+    padding-left: 0;
     color: #f4b247;
-    size: 1.5;
 }
 .appliances{
     padding-right: 4ch;
@@ -144,7 +156,17 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     color: #14213D;
 }
-.appliances :hover{
+.appliances h2 {
+    font-weight: bold;
+    font-size: 1.5em;
+    transition: all 500ms;
+    padding-left: 2.5ch;
+    margin-left: 0;
+}
+.appliances h2:hover {
+    font-size:40px;
+    font-size-adjust: 10px;
+    padding-left: 0ch;
     color: #f4b247;
 }
 .fashion{
@@ -160,7 +182,17 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     color: #14213D;
 }
-.fashion :hover{
+.fashion h2 {
+    font-weight: bold;
+    font-size: 1.5em;
+    transition: all 500ms;
+    padding-left: 2.5ch;
+    margin-left: 0;
+}
+.fashion h2:hover {
+    font-size:40px;
+    font-size-adjust: 10px;
+    padding-left: 0.5ch;
     color: #f4b247;
 }
 /* Add a black background color to the top navigation bar */

@@ -10,8 +10,10 @@
     background-size: cover;
     padding-left: 5%;
     padding-right: 5%;
+    padding-top: 5px;
     box-sizing: border-box;
     position: relative;
+    flex-wrap: wrap;
 }
 .case1 {
     display: inline-block;
@@ -199,11 +201,12 @@ h1{
 .topnav {
     overflow: hidden;
     background-color: #14213D;
-    margin-top: 25px;
+    margin-top: 10px;
     width: 90%;
     margin-left: 5%;
     border-radius: 10px;
     height: 43px;
+    flex-wrap: wrap;
         }
   /* Style the links inside the navigation bar */
 .topnav a {
@@ -214,12 +217,14 @@ h1{
     padding: 9px 8px 10px;
     text-decoration: none;
     font-size: 19px;
+    flex-wrap: wrap;
 }
 
   /* Change the color of links on hover */
 .topnav a:hover {
     background-color: #E5E5E5;
     color: black;
+    flex-wrap: wrap;
 } 
   /* Style the "active" element to highlight the current page */
 .topnav a.active {
@@ -227,6 +232,7 @@ h1{
     color: #E5E5E5;
     font-family: cursive;
     padding-top: 5px;
+    flex-wrap: wrap;
 }
   /* Style the search box inside the navigation bar */
 .topnav input[type=text] {
@@ -234,8 +240,8 @@ h1{
     padding: 6px;
     border: none;
     margin-top: 5px;
-    margin-right: 0px;
-    margin-left: 400px;
+    margin-right: 0;
+    margin-left: 35%;
     font-size: 17px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -259,15 +265,18 @@ h1{
 }
 #cart{
     float: right;
+    flex-wrap: wrap;
 }
 button{
     margin-top: 4px;
     background-color: #14213D;
     margin-left: 0px;
+    margin-right: 20%;
     size: 100px 30px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     border-color: #14213D;
+    flex-wrap: wrap;
 }
 .topnav button:hover{
     background-color: #E5E5E5;
@@ -275,4 +284,17 @@ button{
 .topnav a.active:hover{
     background-color: #E5E5E5;
     color: #FCA311;
+}
+#search{
+    background-color: #E5E5E5;
+}
+#search :hover{
+    background-color: #f4b247;
+}
+@media only screen and (max-width: 600px)
+{
+    #search {
+    margin-right: 5% ;
+    margin-left: 5%;
+    }
 }
